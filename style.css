@@ -52,7 +52,7 @@ body::-webkit-scrollbar {
     margin: 0 0;
     font-size: 30px;
     opacity: 1;
-    color: cream;
+    color: white;
     transition: 0.1s;
     height: 40px;
     font-family: "Rubik" , sans-serif;
