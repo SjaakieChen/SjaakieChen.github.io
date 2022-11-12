@@ -192,10 +192,9 @@ margin-top: 70px;}
 .decoration2{
     height: 3px;
     width: 100vh;
-    opacity: 1;
+    
     background-image: linear-gradient(to right,transparent, white);
     background-size: 20%;
-    background-position: left;
     background-repeat: no-repeat;
     animation: meteor2 8s infinite linear;
     z-index: -1;
@@ -203,6 +202,9 @@ margin-top: 70px;}
 }
 
 @keyframes meteor1{
+    from{
+        background-position: left;
+        opacity: 1;}
     to{
     background-position: right;
     opacity: 0;
@@ -210,6 +212,9 @@ margin-top: 70px;}
 }
 
 @keyframes meteor2{
+    from{
+        background-position: left;
+        opacity: 1;}
     to{
     background-position: right;
     opacity: 0;
