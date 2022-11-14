@@ -186,6 +186,7 @@ margin-top: 70px;}
     background-position: left;
     background-repeat: no-repeat;
     animation: meteor1 8s infinite linear;
+    animation-delay: 1s;
     z-index: -1;
 }
 .decoration2{
@@ -197,7 +198,7 @@ margin-top: 70px;}
     background-repeat: no-repeat;
     animation: meteor2 8s infinite linear;
     z-index: -1;
-    animation-delay: 4s;
+    animation-delay: 5s;
 }
 
 @keyframes meteor1{
